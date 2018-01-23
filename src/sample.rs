@@ -1,8 +1,10 @@
-// Contract doesn't use standard library
+// Contract doesn't use Rust's standard library
 #![no_std]
 #![feature(wasm_import_memory)]
 #![wasm_import_memory]
 
+// `pwasm-std` is the lightweight implementation of a standard library
+// It implements common data structures and provides bindings to the runtime
 extern crate pwasm_std;
 
 /// Will be described in the next step
