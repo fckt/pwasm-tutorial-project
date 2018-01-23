@@ -9,7 +9,7 @@ pwasm-ethereum = { git = "https://github.com/nikvolf/pwasm-ethereum" }
 
 [lib]
 crate-type = ["cdylib"]
-path = "src/token.rs"
+path = "src/sample.rs"
 
 [profile.release]
 panic = "abort"
