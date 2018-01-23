@@ -18,7 +18,6 @@ pub fn deploy(desc: *mut u8) {
     // Note we should't write any result into the call descriptor in deploy.
 }
 
-// The call is the "main" function of the *deployed* contract.
 // The following code will be stored on the blockchain.
 #[no_mangle]
 pub fn call(desc: *mut u8) {
